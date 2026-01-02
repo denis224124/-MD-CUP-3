@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Информация MD CUP 3</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+*{scroll-behavior:smooth}
+body{margin:0;font-family:Arial;background:#0f0f0f;color:#eaeaea}
+nav{position:fixed;top:0;width:100%;background:rgba(10,10,10,.9);backdrop-filter:blur(6px);z-index:1000}
+nav ul{list-style:none;margin:0;padding:10px 20px;display:flex;justify-content:center;gap:25px}
+nav a{color:#eaeaea;text-decoration:none;font-weight:bold}
+nav a:hover{color:#b57cff}
+.hero{margin-top:50px;height:380px;background:url("mdcup3.jpg") center/cover no-repeat;display:flex;align-items:center;justify-content:center;position:relative}
+.hero::after{content:"";position:absolute;inset:0;background:rgba(0,0,0,.6)}
+.hero-content{position:relative;z-index:1;text-align:center}
+.hero h1{font-size:44px;margin:0}
+.container{max-width:1100px;margin:auto;padding:30px 20px}
+.section{background:#1a1a1a;border-radius:12px;padding:25px;margin-bottom:30px}
+.section h2{color:#b57cff;margin-top:0}
+.orgs{display:flex;gap:20px;flex-wrap:wrap}
+.org-card{flex:1;min-width:250px;background:#141414;border-radius:10px;padding:20px;text-align:center}
+footer{text-align:center;padding:20px;background:#0a0a0a;opacity:.7}
+</style>
+</head>
+<body>
+<nav>
+<ul>
+<li><a href="#about">О турнире</a></li>
+<li><a href="#rules">Правила</a></li>
+<li><a href="#orgs">Организаторы</a></li>
+</ul>
+</nav>
+
+<div class="hero">
+<div class="hero-content">
+<h1>MD CUP #3</h1>
+<p>Информация • Правила • Регламент</p>
+</div>
+</div>
+
+<div class="container">
+<div class="section" id="about">
+<p>Добро пожаловать на сайт с официальной информацией турнира MD CUP #3.</p>
+<p><strong>Начало:</strong> 17.01 в 15:00<br><strong>Финал:</strong> 18.01 в 15:00</p>
+</div>
+
+<div class="section" id="rules">
+<h2>Основные правила</h2>
+<p>Полный регламент находится у организаторов. Соблюдение обязательно.</p>
+</div>
+
+<div class="section" id="orgs">
+<h2>Организаторы турнира</h2>
+<div class="orgs">
+<div class="org-card"><h3>Денис Онегин</h3></div>
+<div class="org-card"><h3>Джованни Лоренцо</h3></div>
+</div>
+</div>
+</div>
+
+<footer>© MD CUP 3</footer>
+</body>
+</html>
